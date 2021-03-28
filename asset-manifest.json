@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/eatme-app/static/css/main.093c1a2c.chunk.css",
+    "main.css": "/eatme-app/static/css/main.390000d7.chunk.css",
     "main.js": "/eatme-app/static/js/main.47ef713a.chunk.js",
     "main.js.map": "/eatme-app/static/js/main.47ef713a.chunk.js.map",
     "runtime-main.js": "/eatme-app/static/js/runtime-main.3301a224.js",
@@ -10,13 +10,13 @@
     "static/js/3.1ce3cca1.chunk.js": "/eatme-app/static/js/3.1ce3cca1.chunk.js",
     "static/js/3.1ce3cca1.chunk.js.map": "/eatme-app/static/js/3.1ce3cca1.chunk.js.map",
     "index.html": "/eatme-app/index.html",
-    "static/css/main.093c1a2c.chunk.css.map": "/eatme-app/static/css/main.093c1a2c.chunk.css.map",
+    "static/css/main.390000d7.chunk.css.map": "/eatme-app/static/css/main.390000d7.chunk.css.map",
     "static/js/2.f1eb706f.chunk.js.LICENSE.txt": "/eatme-app/static/js/2.f1eb706f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3301a224.js",
     "static/js/2.f1eb706f.chunk.js",
-    "static/css/main.093c1a2c.chunk.css",
+    "static/css/main.390000d7.chunk.css",
     "static/js/main.47ef713a.chunk.js"
   ]
 }
