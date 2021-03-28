@@ -6,7 +6,6 @@ import Recipe from "./components/Recipe";
 import logo from "./img/logo64.png";
 import "./App.css";
 
-
 export default function App() {
   const category = ["chicken", "fish", "beef", "pork"];
   const random = Math.floor(Math.random() * category.length + 1);
@@ -26,8 +25,9 @@ export default function App() {
           if (!response.data.more) {
             return setAlert("Recipe Not Found");
           }
-          setQuery("");
           setRecipes(response.data.hits);
+          setQuery("");
+          setAlert("");
         }
       } catch (err) {
         console.log(err);
