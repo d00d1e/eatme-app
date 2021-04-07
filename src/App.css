@@ -29,6 +29,9 @@ body {
 /* LOGO */
 .logo {
   transform: translateY(10px);
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #a7aaaf, 0px 0px 0px 5px #ecf0f3, 5px 5px 15px #a7aaaf,
+    -5px -5px 15px #fff;
 }
 
 /* BUTTON */
@@ -79,7 +82,7 @@ body {
 }
 
 .search-bar {
-  width: 50%;
+  width: 45%;
   padding: 10px 30px;
   background: none;
   color: #555;
@@ -94,7 +97,7 @@ body {
 }
 
 .search-button {
-  padding: 10px;
+  padding: 1px;
 }
 
 /* RECIPE */
@@ -105,7 +108,7 @@ body {
   align-items: center;
   justify-content: center;
   grid-template-columns: repeat(4, minmax(20rem, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
 }
 
 .recipe {
@@ -114,7 +117,7 @@ body {
   border-radius: 1.3rem;
   background-color: rgba(255, 255, 255, 0.2);
   background-color: #ecf0f3;
-  box-shadow: 13px 13px 15px #cbced1, -13px -13px 15px #fff;
+  box-shadow: 10px 10px 10px #cbced1, -10px -10px 10px #fff;
 }
 
 .recipe-title {

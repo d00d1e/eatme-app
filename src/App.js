@@ -7,7 +7,7 @@ import logo from "./img/logo64.png";
 import "./App.css";
 
 export default function App() {
-  const category = ["chicken", "fish", "beef", "pork"];
+  const category = ["chicken", "fish", "beef", "pork", "lamb", "pies", "juice"];
   const random = Math.floor(Math.random() * category.length + 1);
 
   const [search, setSearch] = useState("");
