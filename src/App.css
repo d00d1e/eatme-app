@@ -6,16 +6,18 @@
 
 html {
   scroll-behavior: smooth;
-  overscroll-behavior: none;
 }
 
 body {
+  overscroll-behavior: none;
   height: 100%;
   width: 100%;
   font-family: "Lato", sans-serif;
-  color: #555;
-  background-color: #ecf0f3;
+  color: #000;
   padding: 2rem 0;
+  background: #ecf0f3 url("./img/background4.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App {
@@ -24,27 +26,28 @@ body {
 
 .App h1 {
   padding: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: #000 0px 0px 10px;
 }
 
 /* LOGO */
 .logo {
   transform: translateY(10px);
   border-radius: 50%;
-  box-shadow: 1px 1px 2px #a7aaaf, 0px 0px 0px 5px #ecf0f3, 5px 5px 15px #a7aaaf,
-    -5px -5px 15px #fff;
+  background-color: #fff;
 }
 
 /* BUTTON */
 .btn {
   padding: 10px 20px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   outline: none;
   border: none;
-  border-radius: 0.7rem;
-  color: #555;
+  border-radius: 0.5rem;
+  color: #000;
   text-align: center;
   background-color: #ffcc00;
-  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
   transition: all 0.5s;
   cursor: url("img/logo32.png"), auto;
 }
@@ -55,7 +58,7 @@ body {
 
 .btn:active {
   background-color: #ffcc0099;
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
 
 .btn.recipe-btn {
@@ -85,16 +88,12 @@ body {
   width: 45%;
   padding: 10px 30px;
   margin: 3rem 0;
-  background: none;
-  color: #555;
-  font-size: 1.5rem;
+  background-color: white;
+  color: #000;
+  font-size: 1.4rem;
   border: none;
   outline: none;
-  border-radius: 1rem;
-  -webkit-appearance: none;
-  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
-  -webkit-box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
-  -moz-box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  border-radius: 0.5rem;
 }
 
 .search-button {
@@ -103,39 +102,43 @@ body {
 
 /* RECIPE */
 .recipe-container {
-  width: 75%;
+  width: 80% !important;
   margin: auto;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: repeat(4, minmax(20rem, 1fr));
-  grid-gap: 1.5rem;
 }
 
 .recipe {
+  margin: auto;
   height: 100%;
   padding: 0.5rem;
-  border-radius: 1.3rem;
-  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1.2rem;
   background-color: #ecf0f3;
-  box-shadow: 10px 10px 10px #cbced1, -10px -10px 10px #fff;
 }
 
 .recipe-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.5px;
-  height: 5rem;
+  height: 4.5rem;
   margin: 1rem 0;
   text-transform: uppercase;
 }
 
 .recipe img {
-  width: 90%;
-  /* border-radius: 1.3rem; */
-  border-radius: 50%;
+  width: 94%;
+  border-radius: 1.2rem;
   margin: 0.5rem 0;
-  box-shadow: 0px 0px 2px #fff, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaaf,
-    -8px -8px 15px #fff;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  transition: all 0.5s;
+}
+
+.recipe img:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.recipe img:active {
+  transform: scale(0.99);
 }
 
 /* RECIPE DETAILS */
@@ -146,28 +149,10 @@ body {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 640px) {
   .search-bar {
-    font-size: 1rem;
+    width: 60%;
   }
 
-  .recipe-container {
-    grid-template-columns: repeat(1, minmax(20rem, 1fr));
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .recipe-container {
-    grid-template-columns: repeat(2, minmax(20rem, 1fr));
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .recipe-container {
-    grid-template-columns: repeat(3, minmax(20rem, 1fr));
-  }
-}
-
-@media only screen and (min-width: 1290px) {
-  .recipe-container {
-    grid-template-columns: repeat(4, minmax(20rem, 1fr));
+  .App h1 {
+    font-size: 2rem;
   }
 }
