@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/eatme-app/static/css/main.08342d11.chunk.css",
-    "main.js": "/eatme-app/static/js/main.aaf0e05a.chunk.js",
-    "main.js.map": "/eatme-app/static/js/main.aaf0e05a.chunk.js.map",
+    "main.css": "/eatme-app/static/css/main.beac8641.chunk.css",
+    "main.js": "/eatme-app/static/js/main.74dde588.chunk.js",
+    "main.js.map": "/eatme-app/static/js/main.74dde588.chunk.js.map",
     "runtime-main.js": "/eatme-app/static/js/runtime-main.2081d8c6.js",
     "runtime-main.js.map": "/eatme-app/static/js/runtime-main.2081d8c6.js.map",
     "static/js/2.42f60a1a.chunk.js": "/eatme-app/static/js/2.42f60a1a.chunk.js",
     "static/js/2.42f60a1a.chunk.js.map": "/eatme-app/static/js/2.42f60a1a.chunk.js.map",
     "index.html": "/eatme-app/index.html",
-    "static/css/main.08342d11.chunk.css.map": "/eatme-app/static/css/main.08342d11.chunk.css.map",
+    "static/css/main.beac8641.chunk.css.map": "/eatme-app/static/css/main.beac8641.chunk.css.map",
     "static/js/2.42f60a1a.chunk.js.LICENSE.txt": "/eatme-app/static/js/2.42f60a1a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/eatme-app/static/media/background4.a216314f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2081d8c6.js",
     "static/js/2.42f60a1a.chunk.js",
-    "static/css/main.08342d11.chunk.css",
-    "static/js/main.aaf0e05a.chunk.js"
+    "static/css/main.beac8641.chunk.css",
+    "static/js/main.74dde588.chunk.js"
   ]
 }
