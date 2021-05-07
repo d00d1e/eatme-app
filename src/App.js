@@ -76,7 +76,7 @@ export default function App() {
         </button>
       </form>
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3, 1200: 4 }}
+        columnsCountBreakPoints={{ 350: 1, 550: 2, 1000: 3, 1450: 4 }}
       >
         <Masonry columnsCount={4} gutter="15px" className="recipe-container">
           {recipes !== [] &&
