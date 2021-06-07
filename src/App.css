@@ -93,11 +93,13 @@ body {
   font-size: 1.4rem;
   border: none;
   outline: none;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
-.search-button {
-  padding: 1px;
+.search-btn {
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 1.4rem;
+  margin: 3rem 0;
 }
 
 /* RECIPE */
